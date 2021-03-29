@@ -1,0 +1,108 @@
+1번 과제
+```java
+import javax.swing.JOptionPane;
+
+/*
+ 이름과 키, 체중을 입력받고 bmi 지수를 출력
+ w: 체중
+ t: 키 (*단위 : 미터)
+ BMI = w/(t^2)
+ */
+public class quiz03 {
+	public static void main(String[] args) {
+		String sw = JOptionPane.showInputDialog(null, "체중");
+		double w = Double.parseDouble(sw);
+		String st = JOptionPane.showInputDialog(null, "키");
+		double t = Double.parseDouble(st);
+		
+		JOptionPane.showMessageDialog(null,"BMI는 "+ (w/(t*t))+"입니다." );
+```
+2번 과제
+```java
+import java.util.Scanner;
+
+public class homwork01 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double l , m , e , avg;
+		
+		
+		
+		System.out.println("국어점수 : ");
+		l=sc.nextInt();
+		System.out.println("수학점수 : ");
+		m = sc.nextInt();
+		System.out.println("영어점수 : ");
+		e =sc.nextInt();
+		
+		avg= (m + e + l)/3 ;
+		
+		
+		if (avg<=60-1) {
+			System.out.println("F학점");
+		}
+		else if (avg <=70-1) {
+			System.out.println("D학점");
+		}
+		else if (avg <=80-1) {
+			System.out.println("C학점");
+		}
+		else if (avg <=90-1) {
+			System.out.println("B학점");
+		}
+		else {
+			System.out.println("A학점");
+		}
+		
+		if (avg>=60.5) {
+			System.out.println("합격");
+		}
+		else { 
+			System.out.println("불합격");
+		}
+					
+	}
+}
+```
+3번 과제 
+```java
+import java.util.Scanner;
+
+public class homwork01 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a;
+		System.out.print("정수 : ");
+		a= sc.nextInt();
+		
+		if (a%2==0) {
+			System.out.println("2의 배수");
+		}
+		if (a%3 ==0) {
+			System.out.println("3의 배수 ");
+		}
+		if (a%5==0) {
+			System.out.println("5의 배수 ");
+		}
+		else {
+			System.out.println("해당 사항 없음.");
+		}
+		
+		
+		
+		
+	}
+}
+```
+4번 과제
+```java
+
+
+```
+
+
+
+
+
+
+
