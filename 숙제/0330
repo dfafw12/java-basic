@@ -1,0 +1,54 @@
+1.
+```java
+
+int a =1;
+		
+		while (100 > a) {
+			System.out.println(a);
+			a +=2;
+```
+
+2.
+```java
+int a=100 ;
+		while (a>0) {
+			System.out.println(a);
+			--a;
+```
+
+3.
+```java
+int a=1;
+		while (a<=9) {
+			System.out.println("5x"+a+ "=" + a*5);
+			++a;
+		}
+```
+
+4.
+```jva
+```
+
+5.
+```java
+
+```
+
+6.
+```java
+		Scanner sc = new Scanner(System.in);
+		int x=1;
+		int y=1;
+		int a,b;
+		int cnt=0;
+		while (cnt < 5) {
+			x= (int)((Math.random()*8)+2);
+			y= (int)((Math.random()*9)+1);
+			a= x*y;
+			System.out.println(x+"x"+y+"=");
+			b=sc.nextInt();
+			boolean c = a==b;
+			System.out.println(c ? "정답!":"땡!");
+			if (c == true) 
+				++cnt;
+```
